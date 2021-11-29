@@ -137,7 +137,7 @@ def sobel_threaded_manager(gau_img):
         return result[1][1], result[0][1]
 # ===================HELPER FUNCTIONS=======================
 
-# ==================EXERCISE FUNCTIONS======================
+# ====================MAIN FUNCTIONS========================
 def convolution_2D(arr, kernel, border_type):
     """
     Calculate the 2D convolution arr*kernel
@@ -377,7 +377,7 @@ def hysteresis_thresholding(arr, low_ratio, high_ratio):
                             changes += 1
 
     return edges
-# ==================EXERCISE FUNCTIONS======================
+# ====================MAIN FUNCTIONS========================
 
 # ==================TEST PLOTS==============================
 def test_noise_reduction(img, blurred):
@@ -484,5 +484,5 @@ if __name__ == "__main__":
     edges_auto = cv2.Canny(image=np.uint8(gau_img), threshold1=100, threshold2=200)
     test_strong_edges(my_edges, edges_auto)
 
-    print("\nExecution Time: %s seconds" % "{:.2f}".format(exec_time))
+    print("\nExecution Time: %s seconds." % "{:.2f}".format(exec_time))
     plt.show()
