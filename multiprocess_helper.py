@@ -1,5 +1,5 @@
 import numpy as np
-from main import sobel_x, sobel_y, compare_gradient
+from Canny import sobel_x, sobel_y, compare_gradient
 import math
 
 convolution_dict = {}
