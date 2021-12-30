@@ -22,8 +22,12 @@ Below are shown the necessary python libraries to run the edge detector.
   pip install numpy
   ```
 ## Results
-Original Image             |  Image Gradient
-:-------------------------:|:-------------------------:
-<img src="DemoImages/Original.PNG" width="450" height="300">  |  <img src="DemoImages/Magnitude.PNG" width="450" height="300">
-Edge Thinning | Edge Detection
-<img src="DemoImages/EdgeThinning.PNG" width="450" height="300"> | <img src="DemoImages/Edges.PNG" width="450" height="340">
+Original Image             |
+:-------------------------:
+<img src="DemoImages/Original.PNG" width="450" height="300"> |
+Image Gradient |
+<img src="DemoImages/Magnitude.PNG" width="450" height="300"> |
+Edge Thinning | 
+<img src="DemoImages/EdgeThinning.PNG" width="450" height="300"> |
+Edge Detection |
+<img src="DemoImages/Edges.PNG" width="450" height="340"> |
