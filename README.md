@@ -24,6 +24,6 @@ Below are shown the necessary python libraries to run the edge detector.
 ## Results
 Original Image             |  Image Gradient
 :-------------------------:|:-------------------------:
-<img src="DemoImages/Original.PNG" width="450" height="340">  |  <img src="DemoImages/Magnitude.PNG" width="450" height="340">
+<img src="DemoImages/Original.PNG" width="450" height="300">  |  <img src="DemoImages/Magnitude.PNG" width="450" height="300">
 Edge Thinning | Edge Detection
-<img src="DemoImages/EdgeThinning.PNG" width="450" height="340"> | <img src="DemoImages/Edges.PNG" width="450" height="340">
+<img src="DemoImages/EdgeThinning.PNG" width="450" height="300"> | <img src="DemoImages/Edges.PNG" width="450" height="340">
