@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is an implementation of Canny Edge Detector algorithm using multiprocessing, in tasks where is possible.
+This is an implementation of Canny Edge Detector algorithm using multiprocessing.
 
 Author:
 * Andreas Panayiotou
